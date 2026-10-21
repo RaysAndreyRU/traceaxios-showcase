@@ -22,13 +22,23 @@ flowchart LR
     AI --> API
 ```
 
-## Deep dives
+## Backend deep dives
 
 1. [Split API and worker runtimes](01-split-api-worker-runtime.md)
 2. [Multi-provider ingestion and project read models](02-provider-ingestion-and-read-models.md)
 3. [Revocable authentication and one-time flows](03-revocable-authentication.md)
 4. [Hierarchical multi-tenant authorization](04-multi-tenant-authorization.md)
 5. [Bounded AI analysis](05-bounded-ai-analysis.md)
+
+## Admin frontend deep dives
+
+6. [Enforceable Feature-Sliced Design](06-enforceable-fsd.md)
+7. [Resilient client data boundary](07-resilient-client-data-boundary.md)
+8. [Deterministic frontend test platform](08-deterministic-frontend-testing.md)
+
+## Landing deep dive
+
+9. [SEO-first product surface](09-seo-first-landing.md)
 
 ## What was intentionally not published
 
