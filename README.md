@@ -2,6 +2,8 @@
 
 > A portfolio-safe engineering case study for a production-oriented SaaS platform that turns fragmented delivery activity into actionable team insights.
 
+[Русская версия](README.ru.md)
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=111827)](https://react.dev/)
 [![NestJS](https://img.shields.io/badge/NestJS-11-E0234E?logo=nestjs&logoColor=white)](https://nestjs.com/)
