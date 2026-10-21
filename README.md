@@ -49,6 +49,20 @@ The production system separates synchronous API work from provider synchronizati
 
 Read the detailed [architecture case study](docs/architecture.md).
 
+## Architecture deep dives
+
+The following case studies were reconstructed from a focused review of the private backend implementation. They describe the engineering decisions and trade-offs without exposing production source, schemas, credentials, queue names, or proprietary scoring rules.
+
+| Case study | Engineering focus |
+| --- | --- |
+| [Split API and worker runtimes](docs/case-studies/01-split-api-worker-runtime.md) | Independent scaling, role-based NestJS composition, schedulers, processors, and graceful lifecycle boundaries. |
+| [Multi-provider ingestion and project read models](docs/case-studies/02-provider-ingestion-and-read-models.md) | Provider registry, partial failure isolation, idempotent upserts, transactional materialization, and sync health. |
+| [Revocable authentication and one-time flows](docs/case-studies/03-revocable-authentication.md) | JWT plus Redis sessions, refresh rotation, CSRF protection, atomic verification codes, and reset revocation. |
+| [Hierarchical multi-tenant authorization](docs/case-studies/04-multi-tenant-authorization.md) | Organization, team, and project scopes; role invariants; ownership transfer; invitation transactions. |
+| [Bounded AI analysis](docs/case-studies/05-bounded-ai-analysis.md) | Input minimization, structured-output normalization, deterministic fallbacks, permissions, and cached analysis. |
+
+Start with the [case study index](docs/case-studies/README.md) for a concise system map.
+
 ## Selected engineering decisions
 
 | Concern | Approach | Reason |
@@ -128,6 +142,7 @@ See [testing strategy](docs/testing.md) and [security model](docs/security.md).
 ├── .github/workflows/quality.yml
 ├── docs/
 │   ├── architecture.md
+│   ├── case-studies/
 │   ├── security.md
 │   ├── testing.md
 │   └── decisions/
