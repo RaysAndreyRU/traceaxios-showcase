@@ -1,5 +1,7 @@
 # Case Study: Deterministic Frontend Test Platform
 
+[English] | [Русский](08-deterministic-frontend-testing.ru.md)
+
 ## Problem
 
 A complex admin UI depends on authentication, organizations, projects, integrations, analytics, and failure states. End-to-end tests against a shared backend become slow and flaky, while simplistic one-off mocks hide integration defects and drift away from real workflows.

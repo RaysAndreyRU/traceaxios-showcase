@@ -1,5 +1,7 @@
 # Case Study: Enforceable Feature-Sliced Design
 
+[English] | [Русский](06-enforceable-fsd.ru.md)
+
 ## Problem
 
 Large React dashboards tend to lose architectural boundaries gradually. A page imports an internal feature file, one widget imports another widget, features begin to depend on each other, and refactoring becomes risky because ownership is no longer visible from the dependency graph.

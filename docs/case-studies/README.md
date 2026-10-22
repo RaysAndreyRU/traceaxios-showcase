@@ -24,21 +24,21 @@ flowchart LR
 
 ## Backend deep dives
 
-1. [Split API and worker runtimes](01-split-api-worker-runtime.md)
-2. [Multi-provider ingestion and project read models](02-provider-ingestion-and-read-models.md)
-3. [Revocable authentication and one-time flows](03-revocable-authentication.md)
-4. [Hierarchical multi-tenant authorization](04-multi-tenant-authorization.md)
-5. [Bounded AI analysis](05-bounded-ai-analysis.md)
+1. [Split API and worker runtimes](01-split-api-worker-runtime.md) · [Русский](01-split-api-worker-runtime.ru.md)
+2. [Multi-provider ingestion and project read models](02-provider-ingestion-and-read-models.md) · [Русский](02-provider-ingestion-and-read-models.ru.md)
+3. [Revocable authentication and one-time flows](03-revocable-authentication.md) · [Русский](03-revocable-authentication.ru.md)
+4. [Hierarchical multi-tenant authorization](04-multi-tenant-authorization.md) · [Русский](04-multi-tenant-authorization.ru.md)
+5. [Bounded AI analysis](05-bounded-ai-analysis.md) · [Русский](05-bounded-ai-analysis.ru.md)
 
 ## Admin frontend deep dives
 
-6. [Enforceable Feature-Sliced Design](06-enforceable-fsd.md)
-7. [Resilient client data boundary](07-resilient-client-data-boundary.md)
-8. [Deterministic frontend test platform](08-deterministic-frontend-testing.md)
+6. [Enforceable Feature-Sliced Design](06-enforceable-fsd.md) · [Русский](06-enforceable-fsd.ru.md)
+7. [Resilient client data boundary](07-resilient-client-data-boundary.md) · [Русский](07-resilient-client-data-boundary.ru.md)
+8. [Deterministic frontend test platform](08-deterministic-frontend-testing.md) · [Русский](08-deterministic-frontend-testing.ru.md)
 
 ## Landing deep dive
 
-9. [SEO-first product surface](09-seo-first-landing.md)
+9. [SEO-first product surface](09-seo-first-landing.md) · [Русский](09-seo-first-landing.ru.md)
 
 ## What was intentionally not published
 

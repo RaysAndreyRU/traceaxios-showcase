@@ -1,5 +1,7 @@
 # Case Study: Bounded AI Analysis
 
+[English] | [Русский](05-bounded-ai-analysis.ru.md)
+
 ## Problem
 
 AI-assisted summaries can make multi-provider activity easier to interpret, but raw provider events are large, inconsistent, and sometimes sensitive. Model output is also probabilistic: it may return invalid JSON, different key casing, missing fields, or incomplete sections.

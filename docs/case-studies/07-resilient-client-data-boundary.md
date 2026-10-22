@@ -1,5 +1,7 @@
 # Case Study: Resilient Client Data Boundary
 
+[English] | [Русский](07-resilient-client-data-boundary.ru.md)
+
 ## Problem
 
 An authenticated dashboard can issue many parallel requests. When an access session expires, every request may fail at once. If each failure starts its own refresh, the application creates a refresh storm, races token rotation, repeats mutations, and may redirect several times.

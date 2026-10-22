@@ -1,5 +1,7 @@
 # Case Study: SEO-First Product Surface
 
+[English] | [Русский](09-seo-first-landing.ru.md)
+
 ## Problem
 
 A product landing page must serve two audiences simultaneously: people evaluating the product and crawlers building search and social previews. It also needs fast first paint, responsive visuals, theme support, legal routes, security headers, and confidence that metadata and assets remain valid after design changes.

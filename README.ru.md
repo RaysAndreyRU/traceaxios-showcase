@@ -57,15 +57,15 @@ Production-система отделяет синхронные API-запрос
 
 | Контур | Case study | Инженерный фокус |
 | --- | --- | --- |
-| Backend | [Разделение API и worker runtimes](docs/case-studies/01-split-api-worker-runtime.md) | Независимое масштабирование, ролевая композиция NestJS, schedulers, processors и управляемые границы жизненного цикла. |
-| Backend | [Сбор данных из нескольких провайдеров и project read models](docs/case-studies/02-provider-ingestion-and-read-models.md) | Реестр провайдеров, изоляция частичных сбоев, идемпотентные upsert-операции, транзакционная материализация и состояние синхронизации. |
-| Backend | [Отзываемая аутентификация и одноразовые flows](docs/case-studies/03-revocable-authentication.md) | JWT вместе с Redis-сессиями, ротация refresh-токенов, CSRF, атомарные verification codes и отзыв сессий после reset. |
-| Backend | [Иерархическая multi-tenant авторизация](docs/case-studies/04-multi-tenant-authorization.md) | Области организации, команды и проекта; инварианты ролей; передача владения; транзакции приглашений. |
-| Backend | [Ограниченный AI-анализ](docs/case-studies/05-bounded-ai-analysis.md) | Минимизация входных данных, нормализация structured output, детерминированные fallback-сценарии, permissions и кэширование. |
-| Admin | [Контролируемая Feature-Sliced Design](docs/case-studies/06-enforceable-fsd.md) | Автоматическая проверка направления зависимостей, публичные API слайсов, границы композиции и route-level code splitting. |
-| Admin | [Устойчивый клиентский data boundary](docs/case-studies/07-resilient-client-data-boundary.md) | Cookie-аутентификация, CSRF, single-flight refresh, runtime-контракты и изоляция React Query cache scope. |
-| Admin | [Детерминированная frontend test platform](docs/case-studies/08-deterministic-frontend-testing.md) | Общий stateful MSW backend, fault injection, интеграционные тесты, Playwright и независимый контроль browser coverage. |
-| Landing | [SEO-first продуктовая поверхность](docs/case-studies/09-seo-first-landing.md) | SSG, международное SEO, security headers, адаптивная тема, оптимизация ресурсов и исполняемые SEO-проверки. |
+| Backend | [Разделение API и worker runtimes](docs/case-studies/01-split-api-worker-runtime.ru.md) ([EN](docs/case-studies/01-split-api-worker-runtime.md)) | Независимое масштабирование, ролевая композиция NestJS, schedulers, processors и управляемые границы жизненного цикла. |
+| Backend | [Сбор данных из нескольких провайдеров и project read models](docs/case-studies/02-provider-ingestion-and-read-models.ru.md) ([EN](docs/case-studies/02-provider-ingestion-and-read-models.md)) | Реестр провайдеров, изоляция частичных сбоев, идемпотентные upsert-операции, транзакционная материализация и состояние синхронизации. |
+| Backend | [Отзываемая аутентификация и одноразовые flows](docs/case-studies/03-revocable-authentication.ru.md) ([EN](docs/case-studies/03-revocable-authentication.md)) | JWT вместе с Redis-сессиями, ротация refresh-токенов, CSRF, атомарные verification codes и отзыв сессий после reset. |
+| Backend | [Иерархическая multi-tenant авторизация](docs/case-studies/04-multi-tenant-authorization.ru.md) ([EN](docs/case-studies/04-multi-tenant-authorization.md)) | Области организации, команды и проекта; инварианты ролей; передача владения; транзакции приглашений. |
+| Backend | [Ограниченный AI-анализ](docs/case-studies/05-bounded-ai-analysis.ru.md) ([EN](docs/case-studies/05-bounded-ai-analysis.md)) | Минимизация входных данных, нормализация structured output, детерминированные fallback-сценарии, permissions и кэширование. |
+| Admin | [Контролируемая Feature-Sliced Design](docs/case-studies/06-enforceable-fsd.ru.md) ([EN](docs/case-studies/06-enforceable-fsd.md)) | Автоматическая проверка направления зависимостей, публичные API слайсов, границы композиции и route-level code splitting. |
+| Admin | [Устойчивый клиентский data boundary](docs/case-studies/07-resilient-client-data-boundary.ru.md) ([EN](docs/case-studies/07-resilient-client-data-boundary.md)) | Cookie-аутентификация, CSRF, single-flight refresh, runtime-контракты и изоляция React Query cache scope. |
+| Admin | [Детерминированная frontend test platform](docs/case-studies/08-deterministic-frontend-testing.ru.md) ([EN](docs/case-studies/08-deterministic-frontend-testing.md)) | Общий stateful MSW backend, fault injection, интеграционные тесты, Playwright и независимый контроль browser coverage. |
+| Landing | [SEO-first продуктовая поверхность](docs/case-studies/09-seo-first-landing.ru.md) ([EN](docs/case-studies/09-seo-first-landing.md)) | SSG, международное SEO, security headers, адаптивная тема, оптимизация ресурсов и исполняемые SEO-проверки. |
 
 Краткая карта системы находится в [индексе case studies](docs/case-studies/README.md).
 

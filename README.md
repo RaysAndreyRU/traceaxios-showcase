@@ -57,15 +57,15 @@ The following case studies were reconstructed from a focused review of the priva
 
 | Surface | Case study | Engineering focus |
 | --- | --- | --- |
-| Backend | [Split API and worker runtimes](docs/case-studies/01-split-api-worker-runtime.md) | Independent scaling, role-based NestJS composition, schedulers, processors, and graceful lifecycle boundaries. |
-| Backend | [Multi-provider ingestion and project read models](docs/case-studies/02-provider-ingestion-and-read-models.md) | Provider registry, partial failure isolation, idempotent upserts, transactional materialization, and sync health. |
-| Backend | [Revocable authentication and one-time flows](docs/case-studies/03-revocable-authentication.md) | JWT plus Redis sessions, refresh rotation, CSRF protection, atomic verification codes, and reset revocation. |
-| Backend | [Hierarchical multi-tenant authorization](docs/case-studies/04-multi-tenant-authorization.md) | Organization, team, and project scopes; role invariants; ownership transfer; invitation transactions. |
-| Backend | [Bounded AI analysis](docs/case-studies/05-bounded-ai-analysis.md) | Input minimization, structured-output normalization, deterministic fallbacks, permissions, and cached analysis. |
-| Admin | [Enforceable Feature-Sliced Design](docs/case-studies/06-enforceable-fsd.md) | Machine-checked layer direction, public slice APIs, composition boundaries, and route-level code splitting. |
-| Admin | [Resilient client data boundary](docs/case-studies/07-resilient-client-data-boundary.md) | Cookie authentication, CSRF, single-flight refresh, runtime contracts, and query-scope isolation. |
-| Admin | [Deterministic frontend test platform](docs/case-studies/08-deterministic-frontend-testing.md) | Shared stateful MSW backend, fault injection, integration tests, Playwright, and independent browser coverage. |
-| Landing | [SEO-first product surface](docs/case-studies/09-seo-first-landing.md) | SSG, international SEO, security headers, responsive theming, asset optimization, and executable SEO checks. |
+| Backend | [Split API and worker runtimes](docs/case-studies/01-split-api-worker-runtime.md) ([RU](docs/case-studies/01-split-api-worker-runtime.ru.md)) | Independent scaling, role-based NestJS composition, schedulers, processors, and graceful lifecycle boundaries. |
+| Backend | [Multi-provider ingestion and project read models](docs/case-studies/02-provider-ingestion-and-read-models.md) ([RU](docs/case-studies/02-provider-ingestion-and-read-models.ru.md)) | Provider registry, partial failure isolation, idempotent upserts, transactional materialization, and sync health. |
+| Backend | [Revocable authentication and one-time flows](docs/case-studies/03-revocable-authentication.md) ([RU](docs/case-studies/03-revocable-authentication.ru.md)) | JWT plus Redis sessions, refresh rotation, CSRF protection, atomic verification codes, and reset revocation. |
+| Backend | [Hierarchical multi-tenant authorization](docs/case-studies/04-multi-tenant-authorization.md) ([RU](docs/case-studies/04-multi-tenant-authorization.ru.md)) | Organization, team, and project scopes; role invariants; ownership transfer; invitation transactions. |
+| Backend | [Bounded AI analysis](docs/case-studies/05-bounded-ai-analysis.md) ([RU](docs/case-studies/05-bounded-ai-analysis.ru.md)) | Input minimization, structured-output normalization, deterministic fallbacks, permissions, and cached analysis. |
+| Admin | [Enforceable Feature-Sliced Design](docs/case-studies/06-enforceable-fsd.md) ([RU](docs/case-studies/06-enforceable-fsd.ru.md)) | Machine-checked layer direction, public slice APIs, composition boundaries, and route-level code splitting. |
+| Admin | [Resilient client data boundary](docs/case-studies/07-resilient-client-data-boundary.md) ([RU](docs/case-studies/07-resilient-client-data-boundary.ru.md)) | Cookie authentication, CSRF, single-flight refresh, runtime contracts, and query-scope isolation. |
+| Admin | [Deterministic frontend test platform](docs/case-studies/08-deterministic-frontend-testing.md) ([RU](docs/case-studies/08-deterministic-frontend-testing.ru.md)) | Shared stateful MSW backend, fault injection, integration tests, Playwright, and independent browser coverage. |
+| Landing | [SEO-first product surface](docs/case-studies/09-seo-first-landing.md) ([RU](docs/case-studies/09-seo-first-landing.ru.md)) | SSG, international SEO, security headers, responsive theming, asset optimization, and executable SEO checks. |
 
 Start with the [case study index](docs/case-studies/README.md) for a concise system map.
 

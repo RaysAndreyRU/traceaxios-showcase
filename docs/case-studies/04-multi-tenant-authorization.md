@@ -1,5 +1,7 @@
 # Case Study: Hierarchical Multi-Tenant Authorization
 
+[English] | [Русский](04-multi-tenant-authorization.ru.md)
+
 ## Problem
 
 TraceAxios data belongs to organizations, teams, projects, and individual users. A global role alone is not enough: someone can administer one team, contribute to a project, and have no access to another project in the same organization.

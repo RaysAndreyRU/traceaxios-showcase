@@ -1,5 +1,7 @@
 # Case Study: Revocable Authentication and One-Time Flows
 
+[English] | [Русский](03-revocable-authentication.ru.md)
+
 ## Problem
 
 Signed JWTs are convenient for distributed APIs, but a valid self-contained token cannot normally be revoked before it expires. The platform also needs login confirmation, email verification, password reset, refresh rotation, logout-all, and browser CSRF protection.

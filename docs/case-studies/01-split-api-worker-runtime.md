@@ -1,5 +1,7 @@
 # Case Study: Split API and Worker Runtimes
 
+[English] | [Русский](01-split-api-worker-runtime.ru.md)
+
 ## Problem
 
 Provider synchronization, metric snapshots, and token maintenance can be slow or bursty. Running them in the HTTP request lifecycle would couple user-facing latency to external APIs and make horizontal scaling inefficient.

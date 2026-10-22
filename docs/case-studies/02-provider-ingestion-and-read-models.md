@@ -1,5 +1,7 @@
 # Case Study: Multi-Provider Ingestion and Project Read Models
 
+[English] | [Русский](02-provider-ingestion-and-read-models.ru.md)
+
 ## Problem
 
 Engineering activity comes from providers with incompatible schemas and behavior. A single user connection may produce multiple activity streams; for example, one workspace integration can yield calendar, document, and meeting events.
