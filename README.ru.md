@@ -169,7 +169,7 @@ npm run check
 
 ## Автор
 
-**Andrey Rays** — Senior Fullstack Developer & Web3 Engineer
+**Andrey Rays** — Fullstack TypeScript Engineer · Web3 Engineer
 
 - GitHub: [@RaysAndreyRU](https://github.com/RaysAndreyRU)
 - Telegram: [@RaysRU](https://t.me/RaysRU)
