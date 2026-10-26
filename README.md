@@ -66,6 +66,7 @@ The following case studies were reconstructed from a focused review of the priva
 | Admin | [Resilient client data boundary](docs/case-studies/07-resilient-client-data-boundary.md) ([RU](docs/case-studies/07-resilient-client-data-boundary.ru.md)) | Cookie authentication, CSRF, single-flight refresh, runtime contracts, and query-scope isolation. |
 | Admin | [Deterministic frontend test platform](docs/case-studies/08-deterministic-frontend-testing.md) ([RU](docs/case-studies/08-deterministic-frontend-testing.ru.md)) | Shared stateful MSW backend, fault injection, integration tests, Playwright, and independent browser coverage. |
 | Landing | [SEO-first product surface](docs/case-studies/09-seo-first-landing.md) ([RU](docs/case-studies/09-seo-first-landing.ru.md)) | SSG, international SEO, security headers, responsive theming, asset optimization, and executable SEO checks. |
+| Operations | [Production evolution and migration discipline](docs/case-studies/10-production-evolution-and-migrations.md) ([RU](docs/case-studies/10-production-evolution-and-migrations.ru.md)) | Expand–migrate–contract rollouts, idempotent backfills, clean-database CI validation, and recovery boundaries. |
 
 Start with the [case study index](docs/case-studies/README.md) for a concise system map.
 

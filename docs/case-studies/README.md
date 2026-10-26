@@ -40,6 +40,15 @@ flowchart LR
 
 9. [SEO-first product surface](09-seo-first-landing.md) · [Русский](09-seo-first-landing.ru.md)
 
+## Production evolution deep dive
+
+10. [Production evolution and migration discipline](10-production-evolution-and-migrations.md) · [Русский](10-production-evolution-and-migrations.ru.md)
+
+## Related decisions
+
+- [Ports at external boundaries](../decisions/001-ports-at-external-boundaries.md)
+- [Idempotent activity ingestion](../decisions/002-idempotent-activity-ingestion.md)
+
 ## What was intentionally not published
 
 - source files from the production repositories;

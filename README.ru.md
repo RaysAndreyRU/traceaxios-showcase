@@ -66,6 +66,7 @@ Production-система отделяет синхронные API-запрос
 | Admin | [Устойчивый клиентский data boundary](docs/case-studies/07-resilient-client-data-boundary.ru.md) ([EN](docs/case-studies/07-resilient-client-data-boundary.md)) | Cookie-аутентификация, CSRF, single-flight refresh, runtime-контракты и изоляция React Query cache scope. |
 | Admin | [Детерминированная frontend test platform](docs/case-studies/08-deterministic-frontend-testing.ru.md) ([EN](docs/case-studies/08-deterministic-frontend-testing.md)) | Общий stateful MSW backend, fault injection, интеграционные тесты, Playwright и независимый контроль browser coverage. |
 | Landing | [SEO-first продуктовая поверхность](docs/case-studies/09-seo-first-landing.ru.md) ([EN](docs/case-studies/09-seo-first-landing.md)) | SSG, международное SEO, security headers, адаптивная тема, оптимизация ресурсов и исполняемые SEO-проверки. |
+| Эксплуатация | [Эволюция production-системы и дисциплина миграций](docs/case-studies/10-production-evolution-and-migrations.ru.md) ([EN](docs/case-studies/10-production-evolution-and-migrations.md)) | Expand–migrate–contract rollout, идемпотентные backfills, CI-проверка на чистой базе и recovery boundaries. |
 
 Краткая карта системы находится в [индексе case studies](docs/case-studies/README.md).
 
